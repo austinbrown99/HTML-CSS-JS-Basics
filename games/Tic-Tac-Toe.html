@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tic-Tac-Toe.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../calculator/calculators.html">Calculators</a></li>
+        <div class="dropdown">
+            <button class="dropbtn active"> Games
+                <i class="fa fa-caret-down "></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Tic-Tac-Toe.html">Tic-Tac-Toe</a>
+            </div>
+        </div>
+        <li class="github"><a href="https://github.com/austinbrown99">Github</a></li>
+    </ul>
+
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton" onclick="restartGame()">Restart</button>
+    </div>
+
+    <script src="Tic-Tac-Toe.js"></script>
+</body>
+
+</html>

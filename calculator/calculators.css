@@ -1,0 +1,25 @@
+.calculators {
+    display: flex;
+}
+
+.inchToFt {
+    display: block;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: fit-content;
+    border: 2px solid black;
+}
+
+.ftToInch {
+    display: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: fit-content;
+    border: 2px solid black;
+}
+
+.calculatorTitle {
+    text-align-last: center;
+    background-color: #333;
+    color: white;
+}

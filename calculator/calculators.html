@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="calculators.css">
+    <title>Calculators</title>
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a href="../index.html">Home</a></li>
+        <li class="active"><a href="calculators.html">Calculators</a></li>
+        <li class="github"><a href="https://github.com/austinbrown99">Github</a></li>
+        <div class="dropdown">
+            <button class="dropbtn" class="active"> Games
+                <i class="fa fa-caret-down "></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../games/Tic-Tac-Toe.html">Tic-Tac-Toe</a>
+            </div>
+        </div>
+    </ul>
+
+    <div class="selection">
+        <label for="calculators">Choose a Calculator: </label>
+        <select name="calculators" id="calculatorList" onchange="getCalc(this)">
+            <option value="inToFt">Inches to Feet</option>
+            <option value="ftToIn">Feet to Inches</option>
+        </select>
+    </div>
+
+    <div class="calculators" id="calculators">
+        <div class="inchToFt">
+            <div class="calculatorTitle">Inches to Feet <br></div>
+            Inch: <input type="number" id="in_ft_in" placeholder="0"> <br>
+            Feet: <input type="text" id="inchToFtResult" readonly="readonly" placeholder="0">
+        </div>
+        <div class="ftToInch">
+            <div class="calculatorTitle">Feet to Inches <br></div>
+            Feet: <input type="number" id="ft_in_ft" placeholder="0"> <br>
+            Inch: <input type="text" id="ftToInchResult" readonly="readonly" placeholder="0">
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
