@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cycling.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="cycling.html">Cycling</a></li>
+        <li><a href="calculator/calculators.html">Calculators</a></li>
+        <div class="dropdown">
+            <button class="dropbtn"> Games
+                <i class="fa fa-caret-down "></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="games/Tic-Tac-Toe.html">Tic-Tac-Toe</a>
+            </div>
+        </div>
+        <li class="github"><a href="https://github.com/austinbrown99">Github</a></li>
+    </ul>
+
+    <div class="favoriteRide">
+        <h1 class="title"> My Favorite Ride</h1>
+        <div class="favoriteImages">
+            <img src="cyclingImages/Route.jpg" alt="Favorite Ride Route" class="route">
+            <img src="cyclingImages/ElevationMap.jpg" alt="Favorite Ride Elevation" class="elevation">
+        </div>
+        <div class="favoriteRideText">
+            <h3 class="rideSubTitle">Me, My Bike, and Nature</h3>
+            <h4 class="rideDate">Monday, September 2, 2019</h4>
+            <h4 class="rideLocation">Alexandria, Kentucky</h4>
+            <div class="favoriteRideTextParagraph">
+                <p>
+                    Northern Kentucky has become a haven for cyclist in Cincinnati.
+                    It allows riders to escape the crazy urban sprawl of the city and experience some rural and hilly
+                    rides.
+                    There is still a good diversity of riding in Northern Kentucky.
+                    You can ride flat roads along the Ohio river or along Liking river which is a popular route to take
+                    back
+                    into the city.
+                    It is also not too rural where there are no available pitstops, as there are plenty of gas stations
+                    and
+                    convenience stores.
+                </p>
+                <p>
+                    Needing a change in scenery, I chose to drive down and start my ride in Alexandria. It seemed like a
+                    good place to start from given how easy it was to get there. I would come to learn that Alexandria
+                    is on
+                    top of a hill meaning the end of the ride would be uphill, which is not ideal. I spent a good amount
+                    of
+                    time creating this route, which most of the inspiration came from Jake Henningsen, who can be
+                    considered
+                    the king of this area being at the top of almost every KOM list. As you can see from the elevation
+                    map,
+                    there was not too much time spent on flat roads. It was mostly always up and down. The weather was
+                    perfect, starting out a bit chilly, but warming up quickly when the sun rose. When there are little
+                    to
+                    no clouds I know it is going to be a good ride.
+                </p>
+                <p>
+                    I have learned that bonking is what will make a good ride miserable. That is why I included 3 stops
+                    in
+                    this ride. I probably could have gotten away with only 2 stops as I was suprised how fast I came
+                    uppon
+                    my second stop. But I was happy with the stops to refill water and talk with very nice people at a
+                    store. The only bad thing about this ride was the dogs. 3 times I had to sprint away from angry
+                    dogs.
+                    The most
+                    memorable one being when the dog broke the collar that he was chained to and chased me. I hope to be
+                    able to complete this route again in the near future.
+                </p>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="cyclingImages/Ride1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="cyclingImages/Ride2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="cyclingImages/Ride3.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="cyclingImages/Ride4.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+    <script src="cycling.js"></script>
+</body>
+
+</html>
