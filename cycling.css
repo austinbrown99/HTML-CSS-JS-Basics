@@ -93,6 +93,7 @@ img {
   height: 15px;
   width: 15px;
   margin: 0 2px;
+  margin-bottom: 1em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -165,14 +166,14 @@ img {
 }
 
 .monthTotals {
-  height: 35em;
+  height: 30em;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
 
 .monthTotalsTitle {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
   font-size: 50px;
   font-weight: lighter;
   color: black;
@@ -316,6 +317,25 @@ img {
   background-color: #fc5200;
   border-radius: 50%;
   display: inline-block;
+}
+
+.montLongestActivity {
+  height: 30em;
+  width: 100%;
+}
+
+.montLongestActivityTitle {
+  padding-bottom: 0.4em;
+  border-top: solid 2px black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  color: black;
+}
+
+.montLongestActivity iframe {
+  margin: auto;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {}
