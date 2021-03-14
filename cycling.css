@@ -173,7 +173,8 @@ img {
 .monthTotalsTitle {
   text-align: center;
   padding-top: 1em;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: lighter;
   color: black;
 }
 
@@ -197,7 +198,8 @@ img {
   width: auto;
   float: right;
   font-size: xx-large;
-  color: rgb(100, 100, 100);
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
 }
 
 .monthTotalsSub {
@@ -225,7 +227,8 @@ img {
   width: auto;
   float: right;
   font-size: xx-large;
-  color: rgb(100, 100, 100);
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
 }
 
 .monthTotalsMiles {
@@ -245,7 +248,8 @@ img {
   width: auto;
   float: right;
   font-size: xx-large;
-  color: rgb(100, 100, 100);
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
 }
 
 .monthTotalsElevation {
@@ -265,16 +269,53 @@ img {
   width: auto;
   float: right;
   font-size: xx-large;
-  color: rgb(100, 100, 100);
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
 }
 
 .monthTotalsCalendar {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-left: 1em;
+  border-left: solid 2px rgb(100, 100, 100);
   float: left;
-  background-color: pink;
   height: 21em;
   width: 45%;
+}
+
+/* For calandar rows and columns */
+.column {
+  float: left;
+  width: 14%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* For calandar rows and columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dayOfWeek h2{
+  font-weight: normal;
+}
+
+/* Calendar Dots */
+.calDot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.calDotActivity {
+  height: 25px;
+  width: 25px;
+  background-color: #fc5200;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {}
