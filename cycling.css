@@ -134,7 +134,7 @@ img {
   background-color: black;
 }
 
-.yearSummaryName h1{
+.yearSummaryName h1 {
   margin: 0;
   font-weight: 200;
 }
@@ -162,6 +162,119 @@ img {
   text-align: center;
   font-size: xx-large;
   color: rgb(100, 100, 100);
+}
+
+.monthTotals {
+  height: 35em;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.monthTotalsTitle {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 40px;
+  color: black;
+}
+
+.monthTotalsDays {
+  margin-top: 2em;
+  margin-left: 2em;
+  border-top: solid 2px rgb(100, 100, 100);
+  float: left;
+  width: 25%;
+  height: 21em;
+}
+
+.monthTotalsDays h1 {
+  margin: 0;
+  padding-left: 0.5em;
+  float: left;
+  font-size: 200px;
+}
+
+.monthTotalsDaysLabel {
+  width: auto;
+  float: right;
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
+}
+
+.monthTotalsSub {
+  margin-top: 2em;
+  margin-left: 1em;
+  float: left;
+  width: 25%;
+  height: 21em;
+}
+
+.monthTotalsHrs {
+  border-top: solid 2px rgb(100, 100, 100);
+  width: 100%;
+  height: 7em;
+}
+
+.monthTotalsHrs p {
+  margin: 0;
+  padding-left: 0.5em;
+  float: left;
+  font-size: 40px;
+}
+
+.monthTotalsHrsLabel {
+  width: auto;
+  float: right;
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
+}
+
+.monthTotalsMiles {
+  border-top: solid 2px rgb(100, 100, 100);
+  width: 100%;
+  height: 7em;
+}
+
+.monthTotalsMiles p {
+  margin: 0;
+  padding-left: 0.5em;
+  float: left;
+  font-size: 40px;
+}
+
+.monthTotalsMilesLabel {
+  width: auto;
+  float: right;
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
+}
+
+.monthTotalsElevation {
+  border-top: solid 2px rgb(100, 100, 100);
+  width: 100%;
+  height: 7em;
+}
+
+.monthTotalsElevation p {
+  margin: 0;
+  padding-left: 0.5em;
+  float: left;
+  font-size: 40px;
+}
+
+.monthTotalsElevationLabel {
+  width: auto;
+  float: right;
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
+}
+
+.monthTotalsCalendar {
+  margin-top: 2em;
+  margin-left: 1em;
+  float: left;
+  background-color: pink;
+  height: 21em;
+  width: 45%;
 }
 
 @media only screen and (max-width: 600px) {}
