@@ -21,7 +21,7 @@ body {
   width: 50%;
 }
 
-.favoriteImages .route, .favoriteImages .elevation{
+.favoriteImages .route, .favoriteImages .elevation {
   width: 90%;
 }
 
@@ -49,7 +49,6 @@ body {
 img {
   vertical-align: middle;
 }
-
 
 .slideshow-container {
   max-width: 1000px;
@@ -127,6 +126,42 @@ img {
   to {
     opacity: 1
   }
+}
+
+.yearSummary {
+  height: 35em;
+  width: 100%;
+  background-color: black;
+}
+
+.yearSummaryName h1{
+  margin: 0;
+  font-weight: 200;
+}
+
+.yearSummaryName {
+  padding-top: 2em;
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+  color: white;
+}
+
+.yearSummaryMonth h1, .yearSummaryYear h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.yearSummaryMonth {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+.yearSummaryYear {
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
 }
 
 @media only screen and (max-width: 600px) {}
