@@ -13,10 +13,12 @@ ul {
   background-color: #333;
 }
 
+/* Button */
 li {
   float: left;
 }
 
+/* Button Text */
 li a {
   display: block;
   color: white;
@@ -25,6 +27,7 @@ li a {
   text-decoration: none;
 }
 
+/* Button Hover */
 li a:hover:not(.active), .dropdown:hover .dropbtn {
   background-color: #111;
 }
@@ -42,19 +45,21 @@ ul.topnav li.github {
   overflow: hidden;
 }
 
+/* Dropdown Text */
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
-  /* background-color: inherit; */
+  background-color: inherit;
   font-family: inherit;
   /* Important for vertical align on mobile phones */
   margin: 0;
   /* Important for vertical align on mobile phones */
 }
 
+/* Dropdown menu */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -64,6 +69,7 @@ ul.topnav li.github {
   z-index: 1;
 }
 
+/* Dropdown menu text */
 .dropdown-content a {
   float: none;
   color: black;
