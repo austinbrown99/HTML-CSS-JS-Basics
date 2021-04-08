@@ -1,0 +1,22 @@
+.chessBoard {
+    margin: 2.5% auto;
+    border: solid 3px black;
+    width: 800px;
+    height: 800px;
+}
+
+.box:hover {
+    background-color: gray;
+}
+
+.box {
+    color: purple;
+}
+
+.whiteBox {
+    background-color: white;
+}
+
+.blackBox {
+    background-color: black;
+}
