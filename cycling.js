@@ -46,7 +46,6 @@ window.onload = function () {
           type: "column",
           color: "#fc5200",
           dataPoints: [
-            { label: "Mar", y: 0 },
             { label: "Apr", y: 0 },
             { label: "May", y: 8 },
             { label: "Jun", y: 10 },
@@ -58,7 +57,7 @@ window.onload = function () {
             { label: "Dec", y: 5 },
             { label: "Jan", y: 8 },
             { label: "Feb", y: 8 },
-
+            { label: "MAR", y: 13 },
           ]
         }
       ]

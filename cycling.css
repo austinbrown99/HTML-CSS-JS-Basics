@@ -338,4 +338,72 @@ img {
   display: block;
 }
 
+.monthAchievements {
+  margin-left: 2.5%;
+  float: left;
+  height: 30em;
+  width: 45%;
+}
+
+.monthAchievementsTitle {
+  padding-bottom: 0.4em;
+  border-top: solid 2px black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  color: black;
+}
+
+.KOMS {
+  border-top: solid 2px rgb(100, 100, 100);
+  float: left;
+  margin-left: 2.5%;
+  width: 45%;
+  height: 5em;
+}
+
+.goalsMet {
+  border-top: solid 2px rgb(100, 100, 100);
+  margin-left: 5%;
+  float: left;
+  width: 45%;
+  height: 5em;
+}
+
+.challangesCompleted {
+  border-top: solid 2px rgb(100, 100, 100);
+  float: left;
+  margin-left: 2.5%;
+  width: 45%;
+  height: 5em;
+}
+
+.Top10Times {
+  border-top: solid 2px rgb(100, 100, 100);
+  margin-left: 5%;
+  float: left;
+  width: 45%;
+  height: 5em;
+}
+
+.achievementTitles {
+  width: 100%;
+  float: left;
+  font-size: large;
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
+}
+
+.achievementTotals {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.standoutSegment {
+  margin-right: 2.5%;
+  float: right;
+  height: 30em;
+  width: 45%;
+}
+
 @media only screen and (max-width: 600px) {}
